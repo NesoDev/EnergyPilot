@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo_login.css">
+        <style>
+            #container {
+                display: flex;
+                justify-content: space-between;
+            }
+            img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+          <div id="loginform">
+            <h2 id="headerTitle">Iniciar sesión</h2>
+            <div class="row">
+              <label id="user">User ID</label>
+              <input type="text" placeholder="Ingrese su ID" />
+            </div>
+            <div class="row">
+              <label id="password">Password</label>
+              <input type="password" placeholder="Ingrese su contraseña" />
+            </div>
+            <div id="button" class="row">
+              <button onclick="irAHome()">Entrar</a></button>
+            </div>
+            <div id="recover">
+              <a href="">¿Has olvidado tu contraseña?</a>
+            </div>
+            <div id="register">
+              <a href="paginaPrincipal.html">Regístrate</a>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/flagged/photo-1571615754493-ff5d323d6526?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=893&q=80">
+          </div>
+        </div>
+      <script src="login.js"></script>
+    </body>
+</html>
+
